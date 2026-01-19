@@ -1,11 +1,11 @@
 const Entry = (props) => {
     return (
-        <section className="overflow-hidden p-10">
+        <section className="overflow-hidden px-10 pt-10">
             <div className="flex gap-5 items-center pb-10 border-b border-[#F5F5F5]">
                 <div className="shrink-0" >
                     <img 
-                        src={props.image.src}
-                        alt={props.image.alt}
+                        src={props.img.src}
+                        alt={props.img.alt}
                         className="w-31.25 h-42 object-cover rounded-md"
                     />
                 </div>
